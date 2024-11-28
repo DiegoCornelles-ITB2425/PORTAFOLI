@@ -118,3 +118,66 @@ nav a {
 nav a:hover {
     color: #33ff00;
 }
+/* Ajustes para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+    header {
+        font-size: 40px;
+        padding: 20px 0;
+    }
+
+    .perfil {
+        width: 50%;
+        height: auto;
+    }
+
+    .main {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .contingut, aside {
+        width: 100%;
+    }
+
+    img, .videovertical {
+        width: 100%;
+        height: auto;
+    }
+
+    footer {
+        font-size: medium;
+        padding: 15px;
+    }
+
+    nav {
+        font-size: 16px;
+    }
+
+    nav a {
+        margin: 0 10px;
+    }
+}
+
+/* Ajustes para pantallas medianas (tabletas) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    header {
+        font-size: 50px;
+    }
+
+    .perfil {
+        width: 30%;
+    }
+
+    .main {
+        gap: 15px;
+    }
+
+    .contingut, aside {
+        flex: 1;
+        width: 48%;
+    }
+
+    footer {
+        font-size: large;
+    }
+}

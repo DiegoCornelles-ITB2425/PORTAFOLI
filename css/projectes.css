@@ -197,3 +197,72 @@ footer {
 #texto_footer1{
     margin-bottom: 20;
 }
+/* Ajustes para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+    .container {
+        margin: 0;
+        padding: 10px;
+    }
+
+    header {
+        font-size: large;
+        padding: 15px;
+    }
+
+    nav {
+        font-size: 14px;
+        margin-right: 0;
+    }
+
+    .body_div {
+        flex-direction: column;
+    }
+
+    .body_div1, .body_div2 {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .imagen1, .imagen2, .imagen3, .imagen4 {
+        width: 100%;
+        height: auto;
+    }
+
+    footer {
+        font-size: medium;
+        padding: 10px;
+    }
+}
+
+/* Ajustes para pantallas medianas (tabletas) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        margin-left: 10%;
+    }
+
+    header {
+        font-size: x-large;
+    }
+
+    nav ul li a {
+        font-size: 18px;
+    }
+
+    .body_div {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .body_div1, .body_div2 {
+        width: 48%;
+    }
+
+    .imagen1, .imagen2, .imagen3, .imagen4 {
+        width: 80%;
+        margin: auto;
+    }
+
+    footer {
+        font-size: large;
+    }
+}
