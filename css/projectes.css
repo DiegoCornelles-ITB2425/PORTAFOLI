@@ -197,21 +197,13 @@ footer {
 #texto_footer1{
     margin-bottom: 20;
 }
-/* Ajustes para pantallas pequeñas (móviles) */
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     .container {
-        margin: 0;
-        padding: 10px;
-    }
-
-    header {
-        font-size: large;
-        padding: 15px;
+        margin-left: 20%;
     }
 
     nav {
-        font-size: 14px;
-        margin-right: 0;
+        margin-right: 20%;
     }
 
     .body_div {
@@ -220,49 +212,58 @@ footer {
 
     .body_div1, .body_div2 {
         width: 100%;
-        margin: 10px 0;
-    }
-
-    .imagen1, .imagen2, .imagen3, .imagen4 {
-        width: 100%;
-        height: auto;
-    }
-
-    footer {
-        font-size: medium;
-        padding: 10px;
+        margin: 5px 0;
     }
 }
 
-/* Ajustes para pantallas medianas (tabletas) */
-@media (min-width: 769px) and (max-width: 1024px) {
-    .container {
-        margin-left: 10%;
-    }
-
+@media (max-width: 768px) {
     header {
-        font-size: x-large;
+        font-size: large;
     }
 
-    nav ul li a {
+    nav ul li a, #Calc {
         font-size: 18px;
-    }
-
-    .body_div {
-        flex-wrap: wrap;
-        gap: 10px;
-    }
-
-    .body_div1, .body_div2 {
-        width: 48%;
     }
 
     .imagen1, .imagen2, .imagen3, .imagen4 {
         width: 80%;
-        margin: auto;
+    }
+
+    .ThunderBoosting {
+        font-size: large;
+    }
+
+    .texto1, .texto2 {
+        font-size: medium;
     }
 
     footer {
-        font-size: large;
+        font-size: medium;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        font-size: medium;
+    }
+
+    nav ul li a, #Calc {
+        font-size: 16px;
+    }
+
+    .imagen1, .imagen2, .imagen3, .imagen4 {
+        width: 100%;
+    }
+
+    .ThunderBoosting {
+        font-size: medium;
+    }
+
+    .texto1, .texto2 {
+        font-size: small;
+    }
+
+    footer {
+        font-size: small;
     }
 }
