@@ -46,13 +46,14 @@ nav {
     border-style: solid;
 }
 article img {
-    width: auto;
-    height: 250px;
+    width: 50%;
+    height: 5%;
     align-items: center;
 }
 .img1{
     text-align: center;
 }
+
 body{
     background-color:#404040;
 }

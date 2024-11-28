@@ -62,10 +62,10 @@ header .container {
     color: #ffffff;
 }
 
-video {
-    width: 100%; 
+img {
+    width: 25%; 
     max-width: 600px; 
-    height: 75%;
+    height: 50%;
     border-radius: 2px;
 }
 
@@ -101,4 +101,20 @@ footer {
 footer b {
     color: #ffffff;
 }
+nav {
+    background-color: #000000;
+    padding: 10px 0;
+    margin-top: 20px;
+    text-align: center;
+}
 
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #33ff00;
+}
